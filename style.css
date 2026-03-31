@@ -220,6 +220,7 @@ details[open] summary::after { transform: rotate(180deg); }
 .table-container th:nth-child(3), 
 .table-container td:nth-child(3) { width: 15%; text-align: center; } 
 
+
 .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
@@ -312,18 +313,21 @@ footer {
         gap: 15px;
     }
 
-    
+   
     .profile-img {
         width: 75px; 
         height: 75px;
         overflow: hidden; 
         margin: 0 auto 1rem;
+        border-radius: 50%; 
+        display: block;
     }
 
     .profile-img img {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        display: block; 
     }
 
     summary {
